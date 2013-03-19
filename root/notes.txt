@@ -1,0 +1,3 @@
+# Enable net-auto-wired for eth0 discovery
+systemctl enable net-auto-wired.service
+
