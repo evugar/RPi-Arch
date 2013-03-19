@@ -1,7 +1,7 @@
-'# 
 # /etc/fstab: static file system information
 #
 # <file system>        <dir>         <type>    <options>          <dump> <pass>
 devpts /dev/pts devpts defaults 0 0
 /dev/mmcblk0p1  /boot           vfat    defaults        0       0
 /dev/mmcblk0p2 / ext4 defaults 1 1
+/dev/sda1 /media/Seagate2TB ntfs-3g defaults,uid=root,gid=root 0 0
